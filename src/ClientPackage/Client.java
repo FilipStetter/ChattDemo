@@ -17,6 +17,7 @@ import javax.swing.JTextField;
 public class Client  extends JFrame implements ActionListener {
 
     JTextArea txt = new JTextArea();
+
     JScrollPane sp = new JScrollPane(txt);
     JTextField skriv = new JTextField();
     private BufferedReader in;
